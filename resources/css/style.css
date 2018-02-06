@@ -6,7 +6,7 @@ body
 
 .top-of-page
 {
-  background-image: url(../resources/the-flatiron-building.png)
+  background-image: url(../resources/the-flatiron-building.png) repeat 0 0;
 }
 
 h1
@@ -16,11 +16,16 @@ h1
   font-weight: bold;
 }
 
+h2
+{
+  font-size: 32px;
+  font-weight: bold;
+}
+
 h3
 {
   font-size: 23px;
   font-weight: bold;
-}
 }
 
 h4
@@ -32,4 +37,19 @@ h4
 h5
 {
   font-size: 14px;
+}
+
+h6#diff {
+  background-color: gray;
+  color: white;
+  font-size: 11px;
+  font-align: left;
+}
+
+p
+{
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(../resources/the-flatiron-building.png);
 }
